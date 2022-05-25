@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecera {
+    background-color: rgb(51, 58, 64);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.cabecera img {
+    width: 200px;
+    height: 100px;
+}
+
+span {
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding-top: 2.5rem;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.item {
+    padding: 0rem 1rem 0rem 1rem;
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+}
+
+.item:hover {
+    color: white;
+}
+
+.itemGreen {
+    padding: 0rem 1rem 0rem 1rem;
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+}
+
+.itemGreen:hover {
+    color: green;
+}
+
+.confbsas {
+    position: relative;
+    width: 100vw;
+}
+
+.imgConfBsAs {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    filter: brightness(50%);
+
+}
+
+.title-conf {
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.textConf {
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    top: 30vh;
+    right: 10vw;
+    color: white;
+    text-align: right;
+    font-size: 2vw;
+}
+
+
+
+.btnOrador {
+    background-color: transparent;
+    position: absolute;
+    top: 70vh;
+    right: 30vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 1vh 2vw 1vh 2vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 15vw;
+
+}
+
+.btnTickets {
+    background-color: rgb(39, 167, 70);
+    position: absolute;
+    top: 70vh;
+    right: 10vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    padding:  1vh 2vw 1vh 2vw;
+    border: none;
+    border-radius: 5px;
+    width: 15vw;
+}
+
+.sub {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.oradores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 500px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.tarjeta img {
+    width: 300px;
+}
+
+.tarjeta .botones {
+    margin: 1rem .5rem .5rem .5rem;
+}
+
+.tarjeta input[type="button"] {
+    padding: .2rem .4rem .2rem .4rem;
+    font-size: .6rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+.tarjeta .botones .btnAmarillo {
+    background-color: rgb(255, 194, 7);
+}
+
+.tarjeta .botones .btnAzul {
+    background-color: rgb(23, 162, 188);
+    color: white;
+}
+
+.tarjeta .botones .btnGris {
+    background-color: gray;
+    color: white;
+}
+
+.tarjeta .botones .btnRojo {
+    background-color: red;
+    color: white;
+}
+
+.tarjeta .titulo {
+    font-size: 1.3rem;
+    margin: .2rem .5rem 1rem .5rem;
+    font-weight: bold;
+}
+
+.tarjeta .texto {
+    font-size: .8rem;
+    margin: .5rem;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.mitad {
+    background-color: rgb(53, 58, 64);
+    border: 1px solid black;
+    margin: 1px;
+    width: 100%;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: 700px;
+    height: 500px
+}
+
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+#nombre {
+    width: 300px;
+    margin: 20px;
+}
+
+#apellido {
+    width: 300px;
+    margin: 20px;
+}
+
+.nombreApell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#charla {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.titulo {
+    display: block;
+    margin-left: 28.7rem;
+    color: black;
+    font-size: 12px;;
+}
+
+.btnEnviar {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 655px;
+    background-color: rgb(150, 201, 62);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+@media (max-width: 500px) {
+    .bsasOct {
+        width: 100%;
+        height: 200px;
+    }
+}
